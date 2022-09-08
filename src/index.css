@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: 'Poppins', sans-serif !important;
+  /* background: #a1a0a0; */
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.about-intro {
+  background: #411530;
+  /* background: linear-gradient(
+    347deg,
+    rgba(255, 214, 51, 1) 0%,
+    rgba(255, 214, 51, 1) 55%,
+    rgb(180, 202, 229) 100%
+  ); */
+  background: rgb(65, 21, 48);
+  background: linear-gradient(265deg, rgba(65,21,48,1) 0%, rgba(65,21,48,1) 35%, rgba(227,139,41,1) 100%);
+  overflow-x: hidden !important;
+  transform: rotate(12deg);
+  position: absolute;
+  top: -35%;
+  left: -100px;
+  right: 0;
+  border-radius: 50px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
